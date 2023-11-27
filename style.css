@@ -1,0 +1,15 @@
+.nav-flex-container{
+    display:flex;
+    background-color: blue;
+    height:500px;
+}
+
+.nav-flex-container > div{
+    text-align: center;
+    background-color: bisque;
+    height: 50px;
+    width:100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
