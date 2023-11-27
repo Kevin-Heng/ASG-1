@@ -1,6 +1,12 @@
+#logo-align{
+    display: flex;
+    justify-content: center;
+}
+
 .nav-flex-container{
     display:flex;
-    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
     height:350px;
 }
 
@@ -14,7 +20,4 @@
     font-size: 30px;
 }
 
-#logo-align{
-    display: flex;
-    justify-content: center;
-}
+
