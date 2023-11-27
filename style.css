@@ -24,10 +24,22 @@
 }
 
 .albums{
-    display: flex;
-    position: relative;
-    background-color: brown;
-    height:800px;
+    display:flex;
+    right:20px;
+    align-content: space-between;
+
+    flex-wrap: wrap;
+    background-color: rgb(79, 79, 79);
+    height:950px;
+}
+
+.albums > img{
+    margin:73px;
+    padding: 30px;
+}
+
+h1{
+    display:inline;
 }
 
 
