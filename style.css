@@ -7,7 +7,7 @@
 .nav-flex-container{
     display:flex;
     justify-content: center;
-    height:350px;
+    height:150px;
 }
 
 .nav-flex-container > div{
@@ -20,4 +20,8 @@
     font-size: 18px;
 }
 
+#nav-table{
+    background-color: aquamarine;
+    
+}
 
