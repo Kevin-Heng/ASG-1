@@ -10,18 +10,19 @@
     height:150px;
 }
 
-.nav-flex-container > div{
+.nav-flex-container > a{
     text-align: center;
-    background-color: bisque;
+    background-color: #ffffff;
     height: 15px;
-    width:150px;
+    width:90px;
     margin: 7px;
     padding: 10px;
     font-size: 18px;
 }
 
 #nav-table{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    
     
 }
 
