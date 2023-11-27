@@ -17,6 +17,8 @@
     font-size: 16px;
     padding:10px;
     background-color: bisque;
+    text-decoration: none;
+    color:black;
 }
 
 #nav-table{
@@ -27,15 +29,15 @@
     display:flex;
     right:20px;
     align-content: space-between;
-
+    justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(79, 79, 79);
     height:950px;
 }
 
 .albums > img{
-    margin:73px;
-    padding: 30px;
+    margin:20px;
+    padding: 20px;
 }
 
 h1{
