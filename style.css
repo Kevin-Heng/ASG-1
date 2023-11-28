@@ -1,4 +1,4 @@
-#logo-align{
+#logo{
     display: flex;
     justify-content: center;
 }
@@ -22,7 +22,7 @@
 
 
 
-#albums{
+#albums-container{
     display:flex;
     right:20px;
     align-content: space-between;
@@ -35,7 +35,7 @@
 
 
 
-.Album{
+.album{
     display: flex;
     text-align:center;
     flex-direction: column;
@@ -46,8 +46,37 @@
     color: rgb(255, 255, 255);
 }
 
+.album > img{
+    width: 300px;
+    height:300px;
+}
+
+
 .history{
-    font-size: 20px;}
+    font-size: 20px;
+    padding:20px;
+}
+
+#members-container{
+    display:flex;
+    right:20px;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(79, 79, 79);
+    height:950px;
+}
+
+.member{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:20px;
+    padding:20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
 
 
 
