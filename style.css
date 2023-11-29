@@ -107,6 +107,16 @@
     background-color: wheat;
 }
 
+#tour-name{
+    display: flex;
+}
+
+#tour-name > div{
+    flex-direction: row;
+    font-size: 40px;
+    
+}
+
 .info{
     display:flex;
     height:auto;
