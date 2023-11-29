@@ -15,7 +15,7 @@
     height: 15px;
     width:80px;
     font-size: 16px;
-    padding:10px;
+    padding:13px;
     background-color: bisque;
     text-decoration: none;
     color:black;
@@ -87,10 +87,22 @@
 
 
 
-#socials{
+#socials-background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(158, 9, 9);
-    height: 400px;
+    height: 600px;
 }
+
+#follow{
+    font-size: 70px;
+    color: wheat;
+    font-weight:bold;
+}
+
+
+
 
 
 
