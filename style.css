@@ -107,10 +107,20 @@
     background-color: wheat;
 }
 
+.info{
+    display:flex;
+    height:auto;
+}
+
+.info > div{
+    margin:10px;
+    padding:10px;
+}
 
 .tour-date{
     display:flex;
     flex-direction: row;
+    flex-grow: 1;
     font-size: 25px;
     margin: 10px;
     padding:10px;
@@ -120,6 +130,7 @@
 .tour-location{
     display:flex;
     flex-direction: row;
+    flex-grow:2;
     font-size: 25px;
     margin: 10px;
     padding:10px;
@@ -127,13 +138,15 @@
 }
 
 .tickets{
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-grow:1;
     height: 30px;
-    width:250px;
+    width:200px;
     font-size: 25px;
     margin:10px;
     padding:10px;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(120, 190, 255);
     color:black;
 }
 
