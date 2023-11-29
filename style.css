@@ -84,10 +84,10 @@
 }
 
 .empty-container{
-    display: flex;
     background-color: white;
-    height:200px;
+    height:100px;
 }
+
 #socials{
     display:flex;
     align-content: space-between;
