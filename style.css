@@ -84,17 +84,18 @@
 }
 
 
-.empty-container{
-    background-color: white;
-    height:80px;
-}
+
 
 #socials{
-    display:flex;
-    align-content: space-between;
-    flex-wrap: wrap;
     background-color: rgb(158, 9, 9);
-    height:200px;
+    height: 400px;
+}
+
+
+
+.platform{
+    padding: 10px;
+    margin:10px;
 }
 
 
