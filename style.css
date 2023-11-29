@@ -187,3 +187,32 @@
 }
 
 
+#merch-container{
+    display:flex;
+    right:20px;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:1000px;
+    background-color: rgb(151, 10, 10);
+}
+
+.merch{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:20px;
+    padding:20px;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.merch > img{
+    width: 300px;
+    height:300px;
+}
+.merch > div{
+    padding: 15px;;
+}
