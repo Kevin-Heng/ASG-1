@@ -64,7 +64,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(79, 79, 79);
-    height:950px;
+    height:1000px;
 }
 
 .member{
@@ -78,6 +78,22 @@
     color: rgb(255, 255, 255);
 }
 
+.member > img{
+    height:400px;
+    width:400px;
+    margin:20px;
+    padding:20px;
+}
+
+#socials{
+    display:flex;
+    right:20px;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(79, 79, 79);
+    height:700px;
+}
 
 
 
