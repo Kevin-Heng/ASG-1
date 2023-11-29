@@ -61,7 +61,7 @@
     align-content: space-between;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(255, 255, 255);
     height:500px;
 }
 
@@ -73,7 +73,7 @@
     margin:10px;
     padding:10px;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .member > img{
@@ -83,16 +83,17 @@
     margin:5px;
 }
 
+
 .empty-container{
     background-color: white;
-    height:100px;
+    height:80px;
 }
 
 #socials{
     display:flex;
     align-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(223, 0, 0);
+    background-color: rgb(158, 9, 9);
     height:200px;
 }
 
