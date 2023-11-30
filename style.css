@@ -1,9 +1,5 @@
 
 
-#logo{
-    display: flex;
-    justify-content: center;
-}
 
 .nav-flex-container{
     display:flex;
@@ -22,7 +18,16 @@
     color:black;
 }
 
+#back-icon{
+    margin:20px;
+    padding:20px;
+}
 
+#logo-icon{
+    display:flex;
+    align-items: center;
+    
+}
 
 #albums-container{
     display:flex;
@@ -105,11 +110,12 @@
 }
 
 #tour-background{
+    height:auto;
     background-color: rgb(71, 71, 71);
 }
 
 #tour-info-background{
-    height: 800px;
+    height: auto;
     width: 91%;
     margin:30px;
     padding: 30px;
