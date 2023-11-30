@@ -18,7 +18,6 @@
     width:80px;
     font-size: 16px;
     padding:13px;
-    background-color: bisque;
     text-decoration: none;
     color:black;
 }
@@ -190,11 +189,10 @@
 
 #merch-container{
     display:flex;
-    right:20px;
     align-content: space-between;
     justify-content: center;
     flex-wrap: wrap;
-    height:1000px;
+    height:auto;
     background-color: rgb(151, 10, 10);
 }
 
@@ -233,7 +231,6 @@
     width:130px;
     font-size: 16px;
     padding:5px;
-    
     text-decoration: none;
     color:black;
 }
