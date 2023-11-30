@@ -1,3 +1,4 @@
+/*CSS for main navigation*/
 #logo{
     display:flex;
     justify-content: center;
@@ -33,11 +34,11 @@
     display:flex;
     height:10px;
 }
+/*-----------------------------------------------------------------------------------------------------*/
 
 
 
-
-
+/*CSS for albums on Music page*/
 #albums-container{
     display:flex;
     right:20px;
@@ -66,8 +67,9 @@
 .album > div{
     padding: 15px;;
 }
+/*-----------------------------------------------------------------------------------------------------*/
 
-
+/*CSS for About Us page*/
 .history{
     font-size: 20px;
     padding:20px;
@@ -101,9 +103,6 @@
     margin:5px;
 }
 
-
-
-
 #socials-background{
     display:flex;
     justify-content: center;
@@ -118,6 +117,9 @@
     font-weight:bold;
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*CSS for Tour page*/
 #tour-background{
     height:900px;
     background-color: rgb(71, 71, 71);
@@ -192,8 +194,9 @@
     background-color: rgb(120, 190, 255);
     color:black;
 }
+/*-----------------------------------------------------------------------------------------------------*/
 
-
+/*CSS for Merch page*/
 #merch-container{
     display:flex;
     align-content: space-between;
@@ -223,21 +226,6 @@
 .merch > div{
     padding: 15px;;
 }
+/*-----------------------------------------------------------------------------------------------------*/
 
-#store-nav{
-    display:flex;
-    justify-content: center;
-    height:50px;
-   
-}
 
-#store-nav > a{
-    text-align: center;
-    align-content: space-around;
-    height: 15px;
-    width:130px;
-    font-size: 16px;
-    padding:5px;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-}
