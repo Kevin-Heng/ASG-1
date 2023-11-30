@@ -227,7 +227,7 @@
 #store-nav{
     display:flex;
     justify-content: center;
-    height:100px;
+    height:50px;
    
 }
 
@@ -239,5 +239,5 @@
     font-size: 16px;
     padding:5px;
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
 }
