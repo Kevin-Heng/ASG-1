@@ -226,4 +226,53 @@
 }
 /*-----------------------------------------------------------------------------------------------------*/
 
+#product-container{
+    display:flex;
+    flex-direction: row;
+    height:auto;
+    background-color: rgb(151, 10, 10);
+}
 
+#product-img{
+    width: 500px;
+    height:500px;
+    margin:60px;
+    padding:60px;
+    background-color: blueviolet;
+}
+
+#product-details{
+    display:flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    height:auto;
+    width:100%;
+    margin:40px;
+    padding:40px;
+}
+
+.product-name{
+    display: flex;
+    font-size: 30px;
+    background-color: aqua;
+    margin:25px;
+    padding: 25px;
+}
+
+.product-price{
+    display: flex;
+    font-size: 20px;
+    background-color: aqua;
+    margin:25px;
+    padding:25px;
+}
+
+.product-avail{
+    display: flex;
+    font-size: 15px;
+    background-color: aqua;
+    margin:25px;
+    padding:25px;
+
+
+}
