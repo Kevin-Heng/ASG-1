@@ -1,3 +1,5 @@
+
+
 #logo{
     display: flex;
     justify-content: center;
@@ -106,32 +108,38 @@
 
 #tour-background{
     height: 800px;
-    width: 93%;
+    width: 91%;
     margin:30px;
     padding: 30px;
-    background-color: wheat;
+    background-color: rgb(240, 227, 206);
 }
 
 #tour-name{
     display: flex;
+    height:100px;
 }
 
-#tour-name > div{
+#tour-name > span{
     flex-direction: row;
     font-size: 80px;
-    margin:15px;
-    padding:5px;
+    margin:10px;
+    padding:10px;
+    color: rgb(240, 227, 206);
     
 }
 
 .tour-name-text1{
     flex-direction: row;
+    padding:0px;
+    margin:0px;
     flex-grow:5;
     font-weight: bold;
 }
 
 .tour-name-text2{
     flex-direction: row;
+    padding:0px;
+    margin:0px;
     flex-grow:0;
     font-weight: bold;
 }
@@ -224,8 +232,8 @@
     height: 15px;
     width:130px;
     font-size: 16px;
-    padding:10px;
-    background-color: bisque;
+    padding:5px;
+    
     text-decoration: none;
     color:black;
 }
