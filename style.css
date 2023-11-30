@@ -21,6 +21,8 @@
     color:black;
 }
 
+
+
 #albums-container{
     display:flex;
     right:20px;
@@ -101,15 +103,6 @@
     font-weight:bold;
 }
 
-
-
-
-
-
-.platform{
-    padding: 10px;
-    margin:10px;
-}
 
 #tour-background{
     height: 800px;
@@ -206,6 +199,7 @@
     padding:20px;
     font-size: 23px;
     color: rgb(255, 255, 255);
+    text-decoration: none;
     
 }
 
@@ -215,4 +209,23 @@
 }
 .merch > div{
     padding: 15px;;
+}
+
+#store-nav{
+    display:flex;
+    justify-content: center;
+    height:100px;
+   
+}
+
+#store-nav > a{
+    text-align: center;
+    align-content: space-around;
+    height: 15px;
+    width:130px;
+    font-size: 16px;
+    padding:10px;
+    background-color: bisque;
+    text-decoration: none;
+    color:black;
 }
