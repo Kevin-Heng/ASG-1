@@ -104,8 +104,11 @@
     font-weight:bold;
 }
 
-
 #tour-background{
+    background-color: rgb(71, 71, 71);
+}
+
+#tour-info-background{
     height: 800px;
     width: 91%;
     margin:30px;
