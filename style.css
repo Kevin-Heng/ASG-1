@@ -374,7 +374,7 @@ nav{
     padding: 20px;
     color: white;
     width:25%;
-    background-color: darkgreen;
+    
 }
 
 .product-price{
@@ -384,7 +384,7 @@ nav{
     padding:20px;
     color: white;
     width:25%;
-    background-color: darkgreen;
+    
 }
 
 .product-avail{
@@ -394,7 +394,7 @@ nav{
     padding:20px;
     color: white;
     width:25%;
-    background-color: darkgreen;
+    
 }
 
 #button{
@@ -418,7 +418,7 @@ nav{
     padding:20px;
     color: white;
     width:25%;
-    background-color: darkgreen;
+    
 }
 
 #add-to-cart{
@@ -437,7 +437,7 @@ nav{
     color: white;
     font-size: 25px;
     margin-left:30px;
-    background-color: darkgreen;
+    
     
 }
 
@@ -446,7 +446,7 @@ nav{
     color: white;
     font-size: 40px;
     margin-left:30px;
-    background-color: darkgreen;
+    
 
 }
 
@@ -456,3 +456,28 @@ nav{
 }
 /*-----------------------------------------------------------------------------------------------------*/
 
+
+
+
+@media screen and (max-width:900px){
+    nav{
+        background-color: rgb(240, 227, 206);
+        width:981px;
+    }
+    .nav-flex-container{
+        display:flex;
+        justify-content: center;
+        height:100px;
+        width:981px;
+    }
+    #video{
+        display:flex;
+        height:500px;
+        width:800px;
+        align-items: center;
+        margin-left:40px;
+        padding-left:40px;
+    }
+
+
+}
