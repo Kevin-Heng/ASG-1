@@ -133,12 +133,6 @@
 /*-----------------------------------------------------------------------------------------------------*/
 
 /*CSS for Tour page*/
-@media screen and (max-width:576px){
-    .info{
-        display:flex;
-        height:1000px;
-    }
-}
 #tour-background{
     height:auto;
     background-color: rgb(71, 71, 71);
@@ -211,6 +205,12 @@
     padding:10px;
     background-color: rgb(120, 190, 255);
     color:black;
+}
+@media screen and (max-width:576px){
+    .info{
+        display:flex;
+        height:1000px;
+    }
 }
 /*-----------------------------------------------------------------------------------------------------*/
 
