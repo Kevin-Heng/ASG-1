@@ -71,6 +71,18 @@ nav{
     
 }
 
+#merch-area{
+    display:flex;
+    margin-top:70px;
+    margin-bottom: 70px;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(71,71,71);
+}
+
+
+
 /*CSS for albums on Music page*/
 #albums-container{
     display:flex;
@@ -238,12 +250,7 @@ nav{
     background-color: rgb(120, 190, 255);
     color:black;
 }
-@media screen and (max-width:576px){
-    .info{
-        display:flex;
-        height:1000px;
-    }
-}
+
 /*-----------------------------------------------------------------------------------------------------*/
 
 /*CSS for Merch page*/
