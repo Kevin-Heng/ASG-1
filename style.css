@@ -52,16 +52,16 @@ nav{
 
 #videos-background{
     margin-top:70px;
-    height:800px;
-    width: auto;
     background-color: rgb(158, 9, 9);
+    margin: 25px;
+    padding: 25px;
 }
 
 #video{
     display:flex;
     align-items: center;
-    margin-left:70px;
-    padding-left:70px;
+    width: 100%;
+    height: auto;
 }
 
 #videos-background > #videos{
@@ -153,9 +153,9 @@ nav{
 }
 
 .member > img{
-    height:300px;
-    width:300px;
-    padding:20px;
+    height:auto;
+    width:200px;
+    padding:30px;
     margin:5px;
 }
 
@@ -164,29 +164,32 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: rgb(158, 9, 9);
-    height: 600px;
+    height: 300px;
 }
 
 #follow{
     font-size: 70px;
-    color: wheat;
+    color: rgb(240, 227, 206);
     font-weight:bold;
+}
+.platform{
+    display: flex;
+
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
 
 /*CSS for Tour page*/
 #tour-background{
-    height:auto;
     background-color: rgb(71, 71, 71);
 }
 
 #tour-info-background{
-    height: auto;
+    height: 100%;
     max-height: max-content;
     justify-content: center;
     height:auto;
-    width: 90%;
+    width: auto;
     margin:30px;
     margin-bottom: 0px;
     padding: 30px;
@@ -417,13 +420,18 @@ nav{
 
 #details{
     margin-top:-3px;
+    height:100%;
     background-color: rgb(151, 10, 10);
 }
-.ok > section{
-    width:fit-content;
-}
+
 /*-----------------------------------------------------------------------------------------------------*/
 
+@media screen and (max-width:900px){
+    #tour-background{
+        height:100%;
+        background-color: rgb(71, 71, 71);
+    }
 
+}
 
 
