@@ -1,4 +1,8 @@
 /*CSS for main navigation*/
+nav{
+    background-color: rgb(240, 227, 206);
+}
+
 #logo{
     display:flex;
     justify-content: center;
@@ -14,7 +18,7 @@
 
 }
 
-.nav-flex-container > a{
+.nav-flex-container > a{ 
     text-align: center;
     height: 15px;
     width:100px;
@@ -38,8 +42,34 @@
 
 
 /*-----------------------------------------------------------------------------------------------------*/
+#latest-news{
+    margin-top:70px;
+    height:500px;
+    width:auto;
 
 
+}
+
+#videos-background{
+    margin-top:70px;
+    height:800px;
+    width:auto;
+    background-color: rgb(158, 9, 9);
+}
+
+#video{
+    display:flex;
+    height:700px;
+    width:1000px;
+    align-items: center;
+    margin-left:70px;
+    padding-left:70px;
+}
+
+#videos-background > #videos{
+    align-content: center;
+    
+}
 
 /*CSS for albums on Music page*/
 #albums-container{
@@ -86,6 +116,9 @@
 .history{
     font-size: 20px;
     padding:20px;
+    color:white;
+    margin-left:30px;
+    word-spacing: 10px;
 }
 
 #members-container{
@@ -94,7 +127,6 @@
     align-content: space-between;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
     height:500px;
 }
 
@@ -106,7 +138,7 @@
     margin:10px;
     padding:10px;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .member > img{
@@ -240,6 +272,8 @@
 .merch > img{
     width: 300px;
     height:300px;
+    border:1px solid white;
+    border-radius: 20%;
 }
 .merch > div{
     padding: 15px;;
@@ -359,6 +393,7 @@
 #button{
     width:40px;
     height:30px;
+    background-color: white;
 }
 
 #quantity {
