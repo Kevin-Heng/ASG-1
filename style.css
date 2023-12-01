@@ -291,7 +291,7 @@ nav{
     position: absolute;
     width:35px; 
     height:35px;
-    padding:20px;
+    padding:0px;
     margin:20px; 
     top:-170px;
 }
@@ -304,40 +304,6 @@ nav{
     
 }
 
-#cart-icon{
-    position: absolute;
-    width:33px; 
-    height:33px;
-    padding:20px;
-    margin:20px; 
-    top:-178px;
-    left:1070px;
-}
-
-#cart-icon-container{
-    position: relative;
-    display:flex;
-    justify-content: flex-end;
-    height:10px;
-    
-}
-#search-icon{
-    position: absolute;
-    width:200px; 
-    height:200px;
-    padding:20px;
-    margin:20px; 
-    top:-200px;
-    left:1010px;
-}
-
-#search-icon-container{
-    position: relative;
-    display:flex;
-    justify-content: flex-end;
-    height:10px;
-    
-}
 /*-----------------------------------------------------------------------------------------------------*/
 
 /*CSS for Merch Product page*/
@@ -459,25 +425,3 @@ nav{
 
 
 
-@media screen and (max-width:900px){
-    nav{
-        background-color: rgb(240, 227, 206);
-        width:981px;
-    }
-    .nav-flex-container{
-        display:flex;
-        justify-content: center;
-        height:100px;
-        width:981px;
-    }
-    #video{
-        display:flex;
-        height:500px;
-        width:800px;
-        align-items: center;
-        margin-left:40px;
-        padding-left:40px;
-    }
-
-
-}
