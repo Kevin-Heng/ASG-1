@@ -2,7 +2,7 @@
   // script.js
 
   // Initialize quantity variable
-  let quantity = 0;
+  let quantity = 1;
 
   // Function to increase quantity
   function increaseQuantity() {
