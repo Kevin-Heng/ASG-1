@@ -1,40 +1,49 @@
 # ASG-1
-# Your Project's Name
+# Paramore's band website
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+My website is for the band Paramore which has been around for more than a decade and the website
+aims to change the layout of the website to make it easier for users to find out more about them
+without needing to go to a different website. This is also to give the website a new look and feel while
+keeping the same colour scheme as the current one.
  
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- As a fan of Paramore, I want to understand the band more to appreciate them even more
+- As a new listener of Paramore, I want to find out more about the band so that I can understand 
+- more about who they are
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+
+I mainly kept the same layout and look of the original website but changed some parts to provide
+more information about the band. An 'About Us' page is created to understand more about the history
+of the band and their members. A 'Music' page is also created to showcase their albums through their
+entire career. Fans are then able to have a greater knowledge on the band and appreciate them even more.
+
+
 
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - allows users to view videos by the band on the page itself
+- Feature 2 - users can increase quantity of the items they want to purchase by clicking on the + and - buttons
+- Feature 3 - view the album titles and years 
+- Feature 4 - view members and history
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- click on the album to view the songs
+- back button to return to previous pages
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML - to programme the website
+- CSS - to style the website
+- JavaScript - for micro-interations such as changing quantity number
 
 
 ## Testing
@@ -47,20 +56,20 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The website scales down to mobile view and looks the same as on desktop.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I have issues changing desktop view to mobile view.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for history in 'About Us, page was copied from the [Wikipedia article Paramore](https://en.wikipedia.org/wiki/Paramore)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from the official website of Paramore(https://www.paramore.net/) and online sources.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Paramore's offical website
